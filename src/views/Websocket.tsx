@@ -35,7 +35,7 @@ const WebscoketView: FC<{}> = () => {
 
   return (
     <>
-      <iframe title="Stream" src={`http://${serverIp}:8000`} />
+      <iframe title="Stream" src={`http://${serverIp}:8889/mystream`} />
       <div style={{ marginBottom: 20 }}>
         <div className="grid">
           <div>
